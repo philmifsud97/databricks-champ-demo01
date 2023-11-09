@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 import pyspark.sql.types as T
 from pyspark.sql import DataFrame
-
+print("Hello world")
 def generate_data1(spark, n=1000, name='my_cool_data'):
     df = spark.range(0, n)
     df.createOrReplaceTempView(name)
