@@ -7,6 +7,7 @@
 
 # COMMAND ----------
 
+print("Demo 01")
 print("Running Code 1..")
 generate_data1()
 
